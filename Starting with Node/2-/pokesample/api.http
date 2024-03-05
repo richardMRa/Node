@@ -1,0 +1,18 @@
+###Get Charizard
+GET http://localhost:3000/pokeSample/charizard
+
+###Bad request
+GET http://localhost:3000/pokeSample/charizardd
+
+
+###Post Pokemon
+POST http://localhost:3000/pokeSample
+Content-Type: application/json
+
+{
+    "name": "ditto",
+    "type": "normal",
+    "moves": [
+        "transform"
+    ]
+}
