@@ -1,0 +1,14 @@
+###Get request to express api
+GET http://localhost:3000/
+
+###Post Pokemon
+POST http://localhost:3000/pokeSample
+Content-Type: application/json
+
+{
+    "name": "ditto",
+    "type": "normal",
+    "moves": [
+        "transform"
+    ]
+}
