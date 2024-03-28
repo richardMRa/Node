@@ -59,7 +59,7 @@ app.post('/movies', (req, res) => {
     res.status(201).json(newMovie)
 })
 
-// UPDATE MOVE BY ID
+// UPDATE MOVIE BY ID
 app.patch('/movies/:id', (req, res) => {
     const result = validatePartialMovie(req.body)
     if (result.error) {

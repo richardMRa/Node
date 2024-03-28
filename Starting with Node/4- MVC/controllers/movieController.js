@@ -1,5 +1,5 @@
 import { readJSON } from '../utils.js'
-import { MovieModel } from '../models/movieModel.js'
+import { MovieModel } from '../models/local-file-system/movieModel.js'
 
 export class MovieController {
     static async getAll(req, res) {
